@@ -34,5 +34,15 @@ public class Book {
         return book;
     }
 
+    /**
+     *  - from : 매개변수 하나로 하나의 인스턴스 만듦
+     *  - of : 여러 매개변수로 인스턴스 만듦
+     *  - valueOf : from 과 of의 자세한 버전
+     *  - getInstance, instance : (매개변수를 갖거나 갖지 않거나) 같은 인스턴스임을 보장하지 않는 인스턴스 반환
+     *  - create, newInstance : 매번 새로운 인스턴스를 생성하여 반환
+     *  - getType : 인스턴스를 생성할 때, 해당 클래스가 아닌 다른 클래스에서 생성할 때 사용
+     *  - newType : getType 과 동일
+     *  - Type : getType, newType 의 간략버전
+     */
 
 }
