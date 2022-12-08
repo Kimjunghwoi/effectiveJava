@@ -1,4 +1,4 @@
-package prac.effactivejava.chapter2.item1.staticfactorymethod;
+package prac.effectivejava.chapter2.item1.staticfactorymethod;
 
 import java.lang.reflect.InvocationTargetException;
 
@@ -11,7 +11,7 @@ public abstract class StaticFactoryMethodC {
         StaticFactoryMethodC staticFactoryMethodC = null;
 
         try {
-            Class<?> aClass = Class.forName("prac.effactivejava.chapter2.item1.staticfactorymethod.StaticFactoryMethodChild");
+            Class<?> aClass = Class.forName("prac.effectivejava.chapter2.item1.staticfactorymethod.StaticFactoryMethodChild");
             staticFactoryMethodC = (StaticFactoryMethodC) aClass.getDeclaredConstructor().newInstance();
         } catch (ClassNotFoundException e) {
             System.out.println("클래스가 없습니다");

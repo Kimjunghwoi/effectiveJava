@@ -1,4 +1,4 @@
-package prac.effactivejava.chapter2.item1.staticfactorymethod;
+package prac.effectivejava.chapter2.item1.staticfactorymethod;
 
 
 //Item 1. 생성자 대신 정적 팩터리 메서드를 고려하라

@@ -1,4 +1,4 @@
-package prac.effactivejava;
+package prac.effectivejava;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

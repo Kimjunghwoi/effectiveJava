@@ -1,4 +1,4 @@
-package prac.effactivejava.chapter2.item1.staticfactorymethod;
+package prac.effectivejava.chapter2.item1.staticfactorymethod;
 
 import org.junit.jupiter.api.Test;
 

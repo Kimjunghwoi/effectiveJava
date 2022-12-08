@@ -1,4 +1,4 @@
-package prac.effactivejava.pre.domain;
+package prac.effectivejava.pre.domain;
 
 
 /**
