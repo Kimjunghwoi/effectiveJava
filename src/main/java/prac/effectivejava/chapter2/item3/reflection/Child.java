@@ -1,4 +1,4 @@
-package prac.effectivejava.chapter3.item3.reflection;
+package prac.effectivejava.chapter2.item3.reflection;
 
 public class Child extends Parent{
 

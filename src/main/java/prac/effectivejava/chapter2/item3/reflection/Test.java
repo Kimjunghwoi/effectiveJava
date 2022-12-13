@@ -1,4 +1,4 @@
-package prac.effectivejava.chapter3.item3.reflection;
+package prac.effectivejava.chapter2.item3.reflection;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -11,7 +11,7 @@ public class Test {
         System.out.println("aClass.getName() = " + aClass.getName()); // aClass.getName() = prac.effectivejava.chapter3.item3.reflection.Child
 
         //Class 를 직접 참조할 수 없다면 패키지네임이 포함된 클래스의 이름으로 찾기
-        Class aClass1 = Class.forName("prac.effectivejava.chapter3.item3.reflection.Child");
+        Class aClass1 = Class.forName("prac.effectivejava.chapter2.item3.reflection.Child");
 
         //Constructor 찾기
         Constructor constructor = aClass1.getDeclaredConstructor();
