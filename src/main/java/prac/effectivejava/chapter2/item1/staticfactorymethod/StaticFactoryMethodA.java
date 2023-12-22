@@ -7,15 +7,22 @@ public class StaticFactoryMethodA {
     private Long id;
     private String name;
 
-//    public StaticFactoryMethod(String name) {
-//        this.name = name;
-//    }
+    public StaticFactoryMethodA(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+    public StaticFactoryMethodA( String name) {
 
+        this.name = name;
+    }
     //vs
 
     public static StaticFactoryMethodA CreateStaticFactoryMethod(String name) {
         StaticFactoryMethodA staticFactoryMethodA = new StaticFactoryMethodA();
         staticFactoryMethodA.name = name;
+//        new BigInteger(1, 2, Math.random());
+//        BigInteger.probablePrime(10, Math.random());
+
         return staticFactoryMethodA;
     }
     // 이름을 가질 수 있기에 어떤 일을 하는지 정확하게 파악 할 수 있다.
@@ -27,12 +34,13 @@ public class StaticFactoryMethodA {
     private StaticFactoryMethodA(){}
 
     public static StaticFactoryMethodA getNewInstance() {
+//                Boolean.valueOf(name);
         return STATIC_FACTORY_METHOD;
     }
 
     // Test Code 참조
 
-    // third . 반환 타입의 하위 타입 객체를 반환할 수 있는 능력이 있다.
+
 
 
 

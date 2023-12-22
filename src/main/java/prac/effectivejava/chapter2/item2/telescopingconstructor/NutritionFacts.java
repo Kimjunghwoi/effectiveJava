@@ -1,5 +1,6 @@
 package prac.effectivejava.chapter2.item2.telescopingconstructor;
 
+
 // 코드 2-1 점층적 생성자 패턴 - 확장하기 어렵다! (14~15쪽)
 public class NutritionFacts {
     private final int servingSize;  // (mL, 1회 제공량)     필수

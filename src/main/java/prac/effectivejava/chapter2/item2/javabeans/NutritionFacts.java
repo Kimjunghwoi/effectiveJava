@@ -12,6 +12,7 @@ public class NutritionFacts {
 
     public NutritionFacts() { }
     // Setters
+    // 객체 하나를 만들기 위한 비용이 크다..
     public void setServingSize(int val)  { servingSize = val; }
     public void setServings(int val)     { servings = val; }
     public void setCalories(int val)     { calories = val; }

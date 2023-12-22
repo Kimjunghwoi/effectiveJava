@@ -7,5 +7,5 @@ public class UtilityClass {
         throw new AssertionError();
     }
 
-    // 나머지 코드는 생략
+    // 나머지 코드는 생략 .. 스태틱메서드를 사용할수있음
 }
